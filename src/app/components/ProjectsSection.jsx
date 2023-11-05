@@ -50,6 +50,15 @@ const projectsData = [
     gitUrl: "https://github.com/tomatooy/shareRide",
     previewUrl: "",
   },
+  {
+    id: 6,
+    title: "Acme",
+    description: "NextJS tutorial dashboard app",
+    image: "/images/projects/project6.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/tomatooy/next-tutorial",
+    previewUrl: "next-tutorial-navy-nu.vercel.app",
+  },
   
 ];
 

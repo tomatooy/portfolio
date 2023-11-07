@@ -57,7 +57,7 @@ const projectsData = [
     image: "/images/projects/project6.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/tomatooy/next-tutorial",
-    previewUrl: "next-tutorial-navy-nu.vercel.app",
+    previewUrl: "https://next-tutorial-navy-nu.vercel.app",
   },
   
 ];

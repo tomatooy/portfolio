@@ -13,7 +13,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
+          className="col-span-12 place-self-center text-center sm:text-left justify-self-start"
         >
           <h1 className="text-black mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-500">
@@ -36,9 +36,9 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-stone text-base sm:text-lg mb-6 lg:text-xl">
-          Strength does not come from winning. Your struggles develop your strengths. When you go through hardships and decide not to surrender, that is strength.
+          "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work."
           </p>
-          <h3 className="text-stone text-base sm:text-lg mb-6 lg:text-xl">—— Arnold Schwarzenegger</h3>
+          <h3 className="text-stone text-base sm:text-lg mb-6 lg:text-xl">—– Steve Jobs</h3>
           <div>
             <Link
               href="/ZO_resume.pdf"
@@ -50,22 +50,7 @@ const HeroSection = () => {
             </Link>
           </div>
         </motion.div>
-        <motion.div
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
-          className="col-span-4 place-self-center mt-4 lg:mt-0"
-        >
-          <div className="w-[600px] h-[600px]  relative">
-            <Image
-              src="/hero.png"
-              alt="hero image"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={300}
-              height={300}
-            />
-          </div>
-        </motion.div>
+       
       </div>
     </section>
   );

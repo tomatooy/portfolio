@@ -36,7 +36,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-stone text-base sm:text-lg mb-6 lg:text-xl">
-          "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work."
+          &quot;Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work.&quot;
           </p>
           <h3 className="text-stone text-base sm:text-lg mb-6 lg:text-xl">—– Steve Jobs</h3>
           <div>

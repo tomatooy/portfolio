@@ -9,7 +9,7 @@ const HeroSection = () => {
     <section className="lg:py-16 h-screen snap-start content-center">
       <div className="grid grid-cols-1 sm:grid-cols-12 gap-4">
       <div className="col-span-4 sm:col-start-2">
-        <Image src="/Hero.jpg" alt="image" className="" width={1200} height={1000}/>
+        <Image src="/hero.jpg" alt="image" className="" width={1200} height={1000}/>
       </div>
         <div className="sm:col-start-7 flex flex-col place-content-between">
           <h1 className="sm:text-9xl text-4xl">Hi, Welcome</h1>

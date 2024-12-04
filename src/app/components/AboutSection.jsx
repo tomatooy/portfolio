@@ -53,10 +53,12 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-black py-10  mt-8 h-screen items-center flex justify-center snap-start" id="about">
+    <section className="text-black py-10  mt-8 h-screen sm:items-center flex justify-center snap-start" id="about">
+
       <div className="md:grid md:grid-cols-2 gap-10 items-center  xl:gap-16 sm:py-16 xl:px-16">
-       
+
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
+        <h1 className="inline sm:hidden text-4xl mb-5">ABOUT ME</h1>
           <p className="text-black lg:text-lg">
             I am a student at NYU studying computer engineering who is also passionate about building innovative software especially web applications. I have experience
             working with most modern web development techonologies including  TypeScript, React, Node.js, Express, MongoDB. I am a quick learner and I am always
@@ -90,7 +92,7 @@ const AboutSection = () => {
           </div>
         </div>
         <div className=" h-full flex-col">
-        <h1 className="text-center text-7xl z-2">ABOUT ME</h1>
+        <h1 className="text-center text-7xl z-2 hidden sm:block">ABOUT ME</h1>
         <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg  "></div>
         </div>
       </div>

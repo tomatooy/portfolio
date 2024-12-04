@@ -6,6 +6,15 @@ import { motion, useInView } from "framer-motion";
 
 const projectsData = [
   {
+    id: 7,
+    title: "React Music App",
+    description: "music player react web application",
+    image: "/images/projects/project7.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/tomatooy/react-music",
+    previewUrl: "https://react-music-rose.vercel.app/home",
+  },
+  {
     id: 1,
     title: "UGA CSSA Website",
     description: "a full-stack website built for CSSA student association",
